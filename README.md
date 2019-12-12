@@ -20,18 +20,18 @@
       ```
 6. Modify darknet.data as necessary
     ```data
-      classes = 1
-      train  = /path/to/tool_train.txt
-      valid  = /path/to/tool_test.txt
-      names = /path/to/classes.names
-      backup = /path/to/weights/
+      classes = 7
+      train  = /path/to/YOLOv3-Training-Tool-Detector/tool_train.txt
+      valid  = /path/to/YOLOv3-Training-Tool-Detector/tool_test.txt
+      names = /path/to/YOLOv3-Training-Tool-Detector/classes.names
+      backup = /path/to/YOLOv3-Training-Tool-Detector/weights/
+
     ```
 7. Modify darknet-yolov3.cfg as necessary
     * you may need to modify batch size, image dimensions, etc...
 8. Train 
 ```batch
-      cd ~/darknet
-      ./darknet detector train /path/to/images/darknet.data /path/to/images/darknet-yolov3.cfg ./darknet53.conv.74 > /path/to/images/train.log
+      ./darknet detector train /path/to/YOLOv3-Training-Tool-Detector/darknet.data /path/to/YOLOv3-Training-Tool- Detector/darknet-yolov3.cfg ./darknet53.conv.74 > /path/to/YOLOv3-Training-Tool-Detector/train.log
 ```
 9. Test model using command `python3 object_detection_yolo.py --image=snowmanImage.jpg`
 
