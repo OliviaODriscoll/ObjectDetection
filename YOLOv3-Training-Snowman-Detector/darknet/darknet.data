@@ -1,0 +1,6 @@
+classes = 7
+train = /data/projects/learnopencv/YOLOv3-Training-Tool-Detector/tool_train.txt
+valid = /data/projects/learnopencv/YOLOv3-Training-Tool-Detector/tool_test.txt
+names = /data/projects/learnopencv/YOLOv3-Training-Tool-Detector/classes.names
+backup = /data/projects/learnopencv/YOLOv3-Training-Tool-Detector/weights/
+
