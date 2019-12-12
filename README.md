@@ -14,10 +14,10 @@
       ```
       * compile darknet with GPU and CUDNN settings configured to match your system (default is no GPU)
 5. Download pre-trained model
-    * ```batch
+    ```batch
       cd ~/darknet
       wget https://pjreddie.com/media/files/darknet53.conv.74 -O ~/darknet/darknet53.conv.74
-      ```
+    ```
 6. Modify darknet.data as necessary
     ```data
       classes = 7
