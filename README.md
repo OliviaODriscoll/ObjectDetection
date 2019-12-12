@@ -33,5 +33,6 @@
 ```batch
       ./darknet detector train /path/to/YOLOv3-Training-Tool-Detector/darknet.data /path/to/YOLOv3-Training-Tool- Detector/darknet-yolov3.cfg ./darknet53.conv.74 > /path/to/YOLOv3-Training-Tool-Detector/train.log
 ```
-9. Test model using command `python3 object_detection_yolo.py --image=snowmanImage.jpg`
+9. Test model using command `python3 object_detection_yolo.py --image=imageName.jpg`
+      * find image with bounding box in JPEGImages Folder
 
