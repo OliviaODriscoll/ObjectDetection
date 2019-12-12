@@ -3,7 +3,7 @@
 2. Create dataset 
     * I used YoloLabel, available here: https://github.com/developer0hye/Yolo_Label
     * put your images in /path/to/Yolov3-Training-Tool-Detector/JPEGImages
-    * put .txt files in /path/to/Yolov3-Training-Tool-Detector/labels
+    * put .txt files containing annotations in /path/to/Yolov3-Training-Tool-Detector/labels
 3. Create train/test split using command `python3 splitTrainAndTest.py /path/to/Yolov3-Training-Tool-Detector/JPEGImages`
 4. Download darknet
      ```batch
